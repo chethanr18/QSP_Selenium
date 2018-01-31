@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[No Alert Present]]>
+    </line>
+    <line>
+      <![CDATA[HomePage Displayed , Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Login Unsuccessfull with User Id=mngr112679 and Password=zejAqad]]>
+    </line>
+    <line>
+      <![CDATA[Login Unsuccessfull with User Id=mngr112678 and Password=zejAqbd]]>
+    </line>
+    <line>
+      <![CDATA[Login Unsuccessfull with User Id=mngr112681 and Password=zejAqcd]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37033" started-at="2018-01-22T15:13:36Z" finished-at="2018-01-22T15:14:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37033" started-at="2018-01-22T15:13:36Z" finished-at="2018-01-22T15:14:13Z">
+      <class name="com.bank.test.Test1_Login">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="openApp" is-config="true" duration-ms="7936" started-at="2018-01-22T20:43:37Z" finished-at="2018-01-22T20:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test_login1(java.lang.String, java.lang.String)[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="test_login1" duration-ms="1277" started-at="2018-01-22T20:43:45Z" data-provider="credentials" finished-at="2018-01-22T20:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr112678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zejAqad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[No Alert Present]]>
+            </line>
+            <line>
+              <![CDATA[HomePage Displayed , Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login1 -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="openApp" is-config="true" duration-ms="6619" started-at="2018-01-22T20:43:47Z" finished-at="2018-01-22T20:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test_login1(java.lang.String, java.lang.String)[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="test_login1" duration-ms="726" started-at="2018-01-22T20:43:53Z" data-provider="credentials" finished-at="2018-01-22T20:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr112679]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zejAqad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Unsuccessfull with User Id=mngr112679 and Password=zejAqad]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login1 -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="openApp" is-config="true" duration-ms="7636" started-at="2018-01-22T20:43:54Z" finished-at="2018-01-22T20:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test_login1(java.lang.String, java.lang.String)[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="test_login1" duration-ms="817" started-at="2018-01-22T20:44:02Z" data-provider="credentials" finished-at="2018-01-22T20:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr112678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zejAqbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Unsuccessfull with User Id=mngr112678 and Password=zejAqbd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login1 -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="openApp" is-config="true" duration-ms="7909" started-at="2018-01-22T20:44:02Z" finished-at="2018-01-22T20:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test_login1(java.lang.String, java.lang.String)[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="test_login1" duration-ms="832" started-at="2018-01-22T20:44:10Z" data-provider="credentials" finished-at="2018-01-22T20:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr112681]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zejAqcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Unsuccessfull with User Id=mngr112681 and Password=zejAqcd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login1 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.bank.test.Test1_Login@1ce92674]" name="closeApp" is-config="true" duration-ms="1775" started-at="2018-01-22T20:44:11Z" finished-at="2018-01-22T20:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.bank.test.Test1_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
