@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Demo TestNG]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27" started-at="2017-05-07T13:41:38Z" finished-at="2017-05-07T13:41:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27" started-at="2017-05-07T13:41:38Z" finished-at="2017-05-07T13:41:38Z">
+      <class name="com.qsp.testng.DemoA">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.qsp.testng.DemoA@6276ae34]" name="testMethod" duration-ms="9" started-at="2017-05-07T19:11:38Z" finished-at="2017-05-07T19:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Demo TestNG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.qsp.testng.DemoA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
