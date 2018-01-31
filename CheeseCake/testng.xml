@@ -1,0 +1,7 @@
+<suite name ="AutomationSuite">
+	<test name="CheeseCake">
+		<packages>
+			<package name="test"/>
+		</packages>
+	</test>
+</suite>

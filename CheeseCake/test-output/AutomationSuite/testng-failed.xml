@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test name="CheeseCake(failed)">
+    <classes>
+      <class name="test.Scenario1">
+        <methods>
+          <include name="scenario1"/>
+          <include name="openApplication"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- test.Scenario1 -->
+    </classes>
+  </test> <!-- CheeseCake(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
